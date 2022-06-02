@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
-*
-*printf
+* main-entry
+(*
+*Return: 0
+(*
+*my_function - kklk kkkhj
 */
 int main(void)
 
