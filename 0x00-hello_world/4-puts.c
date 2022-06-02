@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
-* print a string
+* main-entry
+*
+*Return: 0
 */
 int main(void)
 
