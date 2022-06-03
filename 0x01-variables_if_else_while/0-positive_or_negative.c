@@ -3,8 +3,12 @@
 #include <stdio.h>
 /** more headers goes there */
 
-/** 
-*betty style doc for function main goes there 
+/**
+* main-entry
+(*
+*Return: 0
+(*
+*my_function - kklk kkkhj
 */
 int main(void)
 
