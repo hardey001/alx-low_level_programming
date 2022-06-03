@@ -10,9 +10,12 @@ int main(void)
 
 {
 char alpha;
-for (alpha = 'a'; ((alpha != 'e' || 'q') && (alpha <= 'z')); alpha++)
+for (alpha = 'a'; alpha <= 'z'; alpha++)
+{
+if (alpha != 'e' || 'q')
 {
 putchar(alpha);
+}
 }
 putchar('\n');
 return (0);
