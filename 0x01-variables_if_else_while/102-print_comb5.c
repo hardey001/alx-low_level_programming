@@ -22,18 +22,18 @@ putchar((b % 10) + '0');
 putchar(' ');
 for (c = 0; c < 10; c++)
 {
-for (d = 0; d < 10; d++)
+for (d = c + 1; d < 10; d++)
 {
 putchar((c % 10) + '0');
 putchar((d % 10) + '0');
-}
-}
 if (a == 9 && b == 8 && c == 9 && d == 9)
 {
 continue;
 }
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 putchar('\n');
