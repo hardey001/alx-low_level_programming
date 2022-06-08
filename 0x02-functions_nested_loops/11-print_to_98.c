@@ -17,16 +17,16 @@ for(a = n; a > 98; a--)
 {
 printf("%d, ",a);
 }
-printf("98");
+printf("98\n");
 }
 if (n < 98){
 for(a = n; a < 98; a++)
 {
 printf("%d, ",a);
 }
-printf("98");
+printf("98\n");
 }
 if (n == 98){
-printf("%d",n);
+printf("%d\n",n);
 }
 }
