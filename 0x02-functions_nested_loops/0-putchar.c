@@ -7,7 +7,7 @@
 (*
 *my_function - kklk kkkhj
 */
-int prin (void)
+int main (void)
 
 {
 printf("_putchar");
