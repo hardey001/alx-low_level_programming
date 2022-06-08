@@ -17,10 +17,18 @@ c= a * b;
 printf("%d", c);
 if (c < 9)
 {
+if (b==9)
+{
+continue;
+}
 printf(",  ");
 }
-else
+else if ()
 {
+    if (b==9)
+{
+continue;
+}
 printf(", ");
 }
 if (a == 9 && b == 9)
