@@ -14,28 +14,18 @@ for(a = 0; a <= 9; a++)
 for(b = 0; b <= 9; b++)
 {
 c= a * b;
-printf("%d", c);
-if (c < 9)
+if (c > 0 && c < 9)
 {
-if (b == 9)
-{
-continue;
+printf("  %d", c);
 }
-printf(",  ");
-}
-else
+elseif(c > 9)
 {
 if (b == 9)
 {
 printf("\n");
 continue;
 }
-printf(", ");
-}
-if (a == 9 && b == 9)
-{
-continue;
-}
+printf(" %d", c);
 }
 }
 }
