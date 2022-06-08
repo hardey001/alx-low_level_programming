@@ -7,7 +7,12 @@ void jack_bauer(void)
 {
 int a;
 int b;
-printf("00:00");
+_putchar((0) + '0');
+_putchar((0) + '0');
+_putchar(':');
+_putchar((0) + '0');
+_putchar((0) + '0');
+_putchar('\n');
 for (a = 0; a <= 23; a++)
 {
 for (b = a + 1; b <= 59; b++)
