@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
 * _abs - Short description, single line
@@ -10,7 +11,5 @@
 */
 int _abs(int n)
 {
-int k;
-k = abs(n);
-return (k);
+return (abs(n));
 }
