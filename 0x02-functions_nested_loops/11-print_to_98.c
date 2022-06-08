@@ -11,8 +11,16 @@
 void print_to_98(int n)
 {
 int a;
-for(a = 0; a <= n; a++)
+if (n > 98){
+for(a = n; a >= n; a--)
 {
-printf("%d, ",n);
+printf("%d, ",a);
+}
+}
+if (n <= 98){
+for(a = n; a <= n; a++)
+{
+printf("%d, ",a);
+}
 }
 }
