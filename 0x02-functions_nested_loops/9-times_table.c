@@ -19,6 +19,10 @@ if (b == 9 )
 printf(" %d\n", c);
 continue;
 }
+else if(a == 0)
+{
+printf("%d,", c);
+}
 else if (c >= 0 && c <= 9)
 {
 printf("  %d,", c);
@@ -26,10 +30,6 @@ printf("  %d,", c);
 else if(c > 9)
 {
 printf(" %d,", c);
-}
-else if(a == 0 && b != 0)
-{
-printf("%d,", c);
 }
 else if(b == 0 && a == 0)
 {
