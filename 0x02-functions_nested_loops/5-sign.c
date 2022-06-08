@@ -2,8 +2,8 @@
 #include "main.h"
 #include <ctype.h>
 /**
-* _isalpha - Short description, single line
-* @c: c
+* print_sign - Short description, single line
+* @n: c
 (* a blank line
 * Description: Longer description of the function)?
 (* section header: Section description)*
@@ -21,8 +21,8 @@ else if (n == 0)
 {
 return (0);
 }
-else if (n < 0)
+else
 {
-return (0);
+return (-1);
 }
 }
