@@ -9,7 +9,7 @@ int a;
 int b;
 for (a = 0; a <= 23; a++)
 {
-for (b = a + 1; b <= 59; b++)
+for (b = a; b <= 59; b++)
 {
 _putchar((a / 10) + '0');
 _putchar((a % 10) + '0');
