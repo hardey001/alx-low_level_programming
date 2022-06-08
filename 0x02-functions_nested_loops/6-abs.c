@@ -10,5 +10,7 @@
 */
 int _abs(int n)
 {
-return (abs(n));
+int k;
+k = abs(n);
+return (k);
 }
