@@ -37,17 +37,11 @@ else if (c > 9)
 printf(" %d,", c);
 }
 else if (b == 0 && a == 0)
-{
 printf("%d,  ", c);
-}
 else if (b == 0 && a != 0)
-{
 printf("%d,", c);
-}
 else
-{
 printf("%d,", c);
-}
 }
 }
 }
