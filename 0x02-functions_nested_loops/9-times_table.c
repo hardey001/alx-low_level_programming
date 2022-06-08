@@ -19,13 +19,17 @@ if (b == 9)
 printf(" %d\n", c);
 continue;
 }
-if (c > 0 && c < 9)
+else if (c > 0 && c < 9)
 {
-printf("  %d", c);
+printf("  %d,", c);
 }
-if(c > 9)
+else if(c > 9)
 {
-printf(" %d", c);
+printf(" %d,", c);
+}
+else
+{
+printf("%d,", c);
 }
 }
 }
