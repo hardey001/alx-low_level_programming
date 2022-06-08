@@ -9,7 +9,7 @@
 (* section header: Section description)*
 * Return: Description of the returned value
 */
-int add(a, b)
+int add(int a, int b)
 {
 printf("%d",(a + b));
 return (0);
