@@ -6,7 +6,7 @@
 (*
 *my_function - kklk kkkhj
 */
-int main (void)
+int main(void)
 
 {
 printf("_putchar\n");
