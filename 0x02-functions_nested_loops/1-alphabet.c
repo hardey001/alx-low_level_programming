@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * my_function - print alphabethd
- */
+* main-entry
+(*
+*Return: 0
+(*
+*my_function - kklk kkkhj
+*/
 void print_alphabet(void)
 
 {
