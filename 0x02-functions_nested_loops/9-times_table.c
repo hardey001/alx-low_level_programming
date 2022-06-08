@@ -16,10 +16,6 @@ for(b = 0; b <= 9; b++)
 c= a * b;
 if (b == 9 )
 {
-if (c == 9)
-{
-continue;
-}
 printf(" %d\n", c);
 continue;
 }
