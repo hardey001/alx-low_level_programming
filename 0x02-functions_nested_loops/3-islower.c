@@ -5,16 +5,16 @@
 *
 * Return: Always 0.
 */
-int _islower(int c)
+int _islower(c)
 
-int test_islower(int);
 {
-if (test_islower(c) == 0)
+
+if (islower(c))
 {
-return (0);
+return (1);
 }
 else
 {
-return (1);
+return (0);
 }
 }
