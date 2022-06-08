@@ -7,6 +7,9 @@
 (*
 *my_function - kklk kkkhj
 */
+/**
+ * my_function - print alphabethd
+*/
 void print_alphabet(void)
 
 {
