@@ -19,7 +19,7 @@ if (b == 9 )
 printf(" %d\n", c);
 continue;
 }
-else if(a == 0)
+else if(b == 0)
 {
 printf("%d,", c);
 }
