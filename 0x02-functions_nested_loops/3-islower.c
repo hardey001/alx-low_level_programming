@@ -7,9 +7,9 @@
 */
 int _islower(int c)
 
-int islower(int);
+int test_islower(int);
 {
-if (islower(c) == 0)
+if (test_islower(c) == 0)
 {
 return (0);
 }
