@@ -12,6 +12,6 @@ int print_last_digit(int y)
 {
 int k;
 k=y % 10;
-printf("%d",k)
+printf("%d",k);
 return (k);
 }
