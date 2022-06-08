@@ -19,7 +19,7 @@ if (b == 9 )
 printf(" %d\n", c);
 continue;
 }
-else if (c >= 0 && c < 9)
+else if (c >= 0 && c <= 9)
 {
 printf("  %d,", c);
 }
