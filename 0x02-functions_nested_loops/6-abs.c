@@ -1,7 +1,7 @@
 #include <stdio>
 #include "main"
 /**
-* print_sign - Short description, single line
+* _abs - Short description, single line
 * @n: c
 (* a blank line
 * Description: Longer description of the function)?
