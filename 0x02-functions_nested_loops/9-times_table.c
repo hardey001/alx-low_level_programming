@@ -14,9 +14,14 @@ for(a = 0; a <= 9; a++)
 for(b = 0; b <= 9; b++)
 {
 c= a * b;
-if (b == 9 )
+if (b == 9 && c > 9 )
 {
 printf(" %d\n", c);
+continue;
+}
+else if (b == 9 && c <= 9 )
+{
+printf("  %d\n", c);
 continue;
 }
 else if(b == 0)
