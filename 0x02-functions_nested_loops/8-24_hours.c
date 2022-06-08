@@ -7,9 +7,10 @@ void jack_bauer(void)
 {
 int a;
 int b;
+printf("00:00");
 for (a = 0; a <= 23; a++)
 {
-for (b = a++; b <= 59; b++)
+for (b = a + 1; b <= 59; b++)
 {
 _putchar((a / 10) + '0');
 _putchar((a % 10) + '0');
