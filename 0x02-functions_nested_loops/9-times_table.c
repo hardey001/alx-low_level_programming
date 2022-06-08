@@ -17,15 +17,15 @@ c= a * b;
 printf("%d", c);
 if (c < 9)
 {
-if (b==9)
+if (b == 9)
 {
 continue;
 }
 printf(",  ");
 }
-else if ()
+else
 {
-    if (b==9)
+if (b == 9)
 {
 continue;
 }
