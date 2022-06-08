@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _abs - Short description, single line
+* print_to_98 - Short description, single line
 * @n: c
 (* a blank line
 * Description: Longer description of the function)?
@@ -16,7 +16,7 @@ if (n > 98)
 {
 for (a = n; a > 98; a--)
 {
-printf("%d, ",a);
+printf("%d, ", a);
 }
 printf("98\n");
 }
@@ -24,12 +24,12 @@ if (n < 98)
 {
 for (a = n; a < 98; a++)
 {
-printf("%d, ",a);
+printf("%d, ", a);
 }
 printf("98\n");
 }
 if (n == 98)
 {
-printf("%d\n",n);
+printf("%d\n", n);
 }
 }
