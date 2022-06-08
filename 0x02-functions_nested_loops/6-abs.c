@@ -1,5 +1,5 @@
-#include <stdio>
-#include "main"
+#include <stdio.h>
+#include "main.h"
 /**
 * _abs - Short description, single line
 * @n: c
