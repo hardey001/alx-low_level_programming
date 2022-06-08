@@ -27,6 +27,7 @@ else
 {
 if (b == 9)
 {
+printf("\n");
 continue;
 }
 printf(", ");
@@ -34,10 +35,6 @@ printf(", ");
 if (a == 9 && b == 9)
 {
 continue;
-}
-if (b == 9)
-{
-printf("\n");
 }
 }
 }
