@@ -14,17 +14,17 @@ for(a = 0; a <= 9; a++)
 for(b = 0; b <= 9; b++)
 {
 c= a * b;
+if (b == 9)
+{
+printf(" %d\n", c);
+continue;
+}
 if (c > 0 && c < 9)
 {
 printf("  %d", c);
 }
-elseif(c > 9)
+if(c > 9)
 {
-if (b == 9)
-{
-printf("\n");
-continue;
-}
 printf(" %d", c);
 }
 }
