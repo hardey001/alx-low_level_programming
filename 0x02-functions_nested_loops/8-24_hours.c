@@ -4,6 +4,7 @@
 * jack_bauer - print alphabeth
 */
 void jack_bauer(void)
+
 {
 int a;
 int b;
@@ -27,6 +28,7 @@ if (a == 23 && b == 59)
 continue;
 }
 _putchar('\n');
+b= b - 1;
 }
 }
 }
