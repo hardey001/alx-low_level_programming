@@ -7,7 +7,7 @@
 (*
 *my_function - kklk kkkhj
 */
-void print_alphabet(void)
+void print_alphabeth(void)
 
 {
 char alpha;
