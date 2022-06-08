@@ -9,18 +9,22 @@
 * Return: Description of the returned value
 */
 void print_to_98(int n)
+
 {
 int a;
 if (n > 98){
-for(a = n; a >= n; a--)
+for(a = n; a >= 98; a--)
 {
 printf("%d, ",a);
 }
 }
-if (n <= 98){
-for(a = n; a <= n; a++)
+if (n < 98){
+for(a = n; a <= 98; a++)
 {
 printf("%d, ",a);
 }
+}
+if (n == 98){
+printf("%d",a);
 }
 }
