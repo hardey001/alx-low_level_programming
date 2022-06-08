@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <ctype.h>
 /**
 * print_sign - Short description, single line
 * @n: c
@@ -20,12 +19,12 @@ printf("+");
 }
 else if (n == 0)
 {
-printf("0");
 return (0);
+printf('0');
 }
 else
 {
-printf("-");
 return (-1);
+printf("-");
 }
 }
