@@ -23,7 +23,7 @@ else if (c >= 0 && c <= 9)
 {
 printf("  %d,", c);
 }
-else if(a == 0)
+else if(b == 0)
 {
 printf("%d,", c);
 }
