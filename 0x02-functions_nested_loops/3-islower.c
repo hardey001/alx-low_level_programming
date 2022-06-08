@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+#include <ctype.h>
 /**
 * main - check the code.
 *
 * Return: Always 0.
 */
-int _islower(c)
+int _islower(int c)
 
 {
 
