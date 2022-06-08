@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * add - Short description, single line
-* @n: a
+* @a: a
 * @b:lo
 (* a blank line
 * Description: Longer description of the function)?
