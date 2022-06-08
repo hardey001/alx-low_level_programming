@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
 * main-entry
 (*
@@ -9,6 +10,7 @@
 int main(void)
 
 {
+int _putchar(char c);
 char alpha;
 for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
