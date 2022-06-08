@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
 * main-entry
 (*
@@ -6,7 +7,7 @@
 (*
 *my_function - kklk kkkhj
 */
-int main (void)
+int prin (void)
 
 {
 printf("_putchar");
