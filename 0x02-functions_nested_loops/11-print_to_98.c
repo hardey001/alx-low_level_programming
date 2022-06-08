@@ -23,10 +23,10 @@ if (n < 98){
 for(a = n; a < 98; a++)
 {
 printf("%d, ",a);
+}
 printf("98");
 }
 if (n == 98){
 printf("%d",n);
-}
 }
 }
