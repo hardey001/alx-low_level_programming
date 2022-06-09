@@ -8,16 +8,15 @@
 */
 int main(void)
 {
-int num1 = 1, num2 = 2, num3 = 0, sum, i;
+int num1 = 1, num2 = 2, num3 = 0, sumall=0, i;
 for (i = 3; num3 <= 4000000; i++)
 {
 num3 = num1 + num2;
 if (num3 % 2 == 0)
-printf("%d, ", num3);
-sum = sum + num3;
-printf("%d, ", sum);
+sumall = sum + num3;
+printf("%d, ", sumall);
 num1 = num2, num2 = num3;
 }
-printf("%d\n", (sum + 2));
+printf("%d\n", (sumall + 2));
 return (0);
 }
