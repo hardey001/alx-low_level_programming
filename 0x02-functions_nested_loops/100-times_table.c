@@ -11,14 +11,14 @@ int a, b, c;
 if (n >= 0 && n <= 15)
 {
 if (n ==0 )
-{
 printf("0\n");
-continue;
-}
+else
+{
 for (a = 0; a <= n; a++)
 {
 for (b = 0; b <= n; b++)
 {
+
 c = a * b;
 if (b == n && c > 99)
 {
@@ -49,6 +49,7 @@ else if (b == 0 && a != 0)
 printf("%d,", c);
 else
 printf("%d,", c);
+}
 }
 }
 }
