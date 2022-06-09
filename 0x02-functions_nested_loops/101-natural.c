@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include "main.h"
 /**
-* naturals - Short description, single line
+* main - Short description, single line
 (* a blank line
 * Description: Longer description of the function)?
 (* section header: Section description)*
 * Return: Description of the returned value
 */
-void narurals(void)
+void main(void)
 {
 int i,sum = 0;
 for( i= 0;i < 1024;i++)
