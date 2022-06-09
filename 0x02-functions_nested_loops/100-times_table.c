@@ -9,12 +9,12 @@ void print_times_table(int n)
 {
 int a, b, c;
 if (n >= 0 && n <= 15)
+{
 if (n ==0 )
 {
 printf("0\n");
 continue;
 }
-{
 for (a = 0; a <= n; a++)
 {
 for (b = 0; b <= n; b++)
