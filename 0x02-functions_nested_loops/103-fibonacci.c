@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-int num1 = 1, num2 = 2, num3 = 0, sumall=0, i;
+int num1 = 1, num2 = 2, num3 = 0, sumall = 0, i;
 for (i = 3; num3 <= 4000000; i++)
 {
 num3 = num1 + num2;
