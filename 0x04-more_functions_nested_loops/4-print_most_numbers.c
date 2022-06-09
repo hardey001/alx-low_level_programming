@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_alphabet - print alphabeth
+* print_most_numbers - print alphabeth
 */
 void print_most_numbers(void)
 
