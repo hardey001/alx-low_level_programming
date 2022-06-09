@@ -17,7 +17,7 @@ for (a = 0; a <= n; a++)
 for (b = 0; b <= n; b++)
 {
 c = a * b;
-if (b == n && a == n)
+if (b == n)
 {
 printf(" %d\n", c);
 continue;
