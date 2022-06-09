@@ -17,5 +17,5 @@ if((i % 5 == 0)||(i % 3 == 0))
 sum=sum + i;
 }
 }
-Printf("%d", sum);
+printf("%d", sum);
 }
