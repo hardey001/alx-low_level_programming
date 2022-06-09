@@ -13,7 +13,10 @@ printf("%d, %d, ", num1, num2);
 for (i = 3; i < 50; i++)
 {
 num3 = num1 + num2;
-printf("%d,  ", num3);
+if (i = 50)
+printf("%d", num3);
+else
+printf("%d, ", num3);
 num1 = num2,
 num2 = num3;
 }
