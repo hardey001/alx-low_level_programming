@@ -15,6 +15,7 @@ num3 = num1 + num2;
 if (num3 % 2 == 0)
 printf("%ld, ", num3);
 sum = sum + num3;
+printf("%ld, ", sum);
 num1 = num2, num2 = num3;
 }
 printf("%ld\n", (sum + 2));
