@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _isupper - returnnmm
+ * _isdigit - returnnmm
  * @c: add am 
  * Return: 0
  */
