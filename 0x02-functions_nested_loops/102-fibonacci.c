@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-int num1 = 1,num2 = 2,num3,sum = 0;
+int num1 = 1,num2 = 2,num3,sum = 0, i;
 printf("%d, %d, ", num1, num2);
 for (i = 3; i < 50; i++)
 {
