@@ -16,8 +16,7 @@ printf("%ld, ", num3);
 if (num3 % 2 == 0)
 {sum = sum + num3;
 printf("%ld ll,", num3);}
-else
-continue;
+num1 = num2, num2 = num3;
 }
 /*printf("%ld\n", (sum + 2));*/
 return (0);

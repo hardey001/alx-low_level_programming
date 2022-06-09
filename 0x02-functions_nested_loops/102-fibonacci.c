@@ -17,7 +17,7 @@ if (i == 50)
 printf("%ld\n", num3);
 else
 printf("%ld, ", num3);
-num1 = num2,
+num1 = num2;
 num2 = num3;
 }
 return (0);
