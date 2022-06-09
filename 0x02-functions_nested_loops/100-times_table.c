@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* tprint_times_table - print alphabeth
+*print_times_table - print alphabeth
 *@n: jkjk
 *Return:juju
 */
@@ -10,7 +10,7 @@ void print_times_table(int n)
 int a, b, c;
 if (n >= 0 && n <= 15)
 {
-if (n == 0 )
+if (n == 0)
 printf("0\n");
 else
 {
@@ -25,10 +25,7 @@ printf(" %d\n", c);
 continue;
 }
 if (b == n && c > 9)
-{
 printf("  %d\n", c);
-continue;
-}
 if (b == n && c <= 9)
 printf("   %d\n", c);
 else if (b == 0)
