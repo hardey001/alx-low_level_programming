@@ -10,7 +10,7 @@ void print_times_table(int n)
 int a, b, c;
 if (n >= 0 && n <= 15)
 {
-if (n ==0 )
+if (n == 0 )
 printf("0\n");
 else
 {
@@ -27,13 +27,12 @@ continue;
 }
 if (b == n && c > 9)
 {
-printf("  %d\n", c); 
+printf("  %d\n", c);
 continue;
 }
 if (b == n && c <= 9)
 {
 printf("   %d\n", c);
-continue;
 }
 else if (b == 0)
 printf("%d,", c);
