@@ -22,12 +22,12 @@ if (b == n && c > 99)
 printf(" %d\n", c);
 continue;
 }
-if (b == n && c > 10)
+if (b == n && c > 9)
 {
 printf("  %d\n", c);
 continue;
 }
-if (b == n && c < 10)
+if (b == n && c <= 9)
 {
 printf("   %d\n", c);
 continue;
