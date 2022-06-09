@@ -32,11 +32,6 @@ if (b == n && c < 10)
 printf("   %d\n", c);
 continue;
 }
-else if (b == 9 && c <= 9)
-{
-printf("   %d\n", c);
-continue;
-}
 else if (b == 0)
 printf("%d,", c);
 else if (c >= 0 && c <= 9)
