@@ -21,19 +21,11 @@ for (b = 0; b <= n; b++)
 
 c = a * b;
 if (b == n && c > 99)
-{
 printf(" %d\n", c);
-continue;
-}
 if (b == n && c > 9)
-{
 printf("  %d\n", c);
-continue;
-}
 if (b == n && c <= 9)
-{
 printf("   %d\n", c);
-}
 else if (b == 0)
 printf("%d,", c);
 else if (c >= 0 && c <= 9)
