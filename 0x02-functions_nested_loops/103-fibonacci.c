@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-long num1 = 1, num2 = 2, num3, sum, i;
+long num1 = 1, num2 = 2, num3 = 0, sum, i;
 for (i = 3; num3 <= 4000000; i++)
 {
 num3 = num1 + num2;
@@ -19,6 +19,6 @@ printf("%ld ll,", num3);}
 else
 continue;
 }
-printf("%ld\n", (sum + 2));
+//printf("%ld\n", (sum + 2));
 return (0);
 }
