@@ -2,10 +2,10 @@
 #include <ctype.h>
 
 /**
- * _isupper - returnnmm
- * @c: add am 
- * Return: 0
- */
+* _isupper - returnnmm
+* @c: add am 
+* Return: 0
+*/
 
 int _isupper(int c)
 
