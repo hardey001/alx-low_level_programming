@@ -19,6 +19,6 @@ printf("%ld ll,", num3);}
 else
 continue;
 }
-//printf("%ld\n", (sum + 2));
+/*printf("%ld\n", (sum + 2));*/
 return (0);
 }
