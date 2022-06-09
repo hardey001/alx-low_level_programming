@@ -13,7 +13,7 @@ for (i = 3; num3 <= 4000000; i++)
 {
 num3 = num1 + num2;
 if (num3 % 2 == 0)
-sumall = sum + num3;
+sumall = sumall + num3;
 printf("%d, ", sumall);
 num1 = num2, num2 = num3;
 }
