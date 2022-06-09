@@ -23,9 +23,8 @@ printf(" %d\n", c);
 continue;
 }
 if (b == n && c > 9)
-{
-printf("  %d\n", c); continue;
-}
+printf("  %d\n", c); 
+continue;
 if (b == n && c <= 9)
 {
 printf("   %d\n", c);
