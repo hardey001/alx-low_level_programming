@@ -16,6 +16,6 @@ if (num3 % 2 == 0)
 sumall = sumall + num3;
 num1 = num2, num2 = num3;
 }
-printf("%d\n", (sumall + 2));
+printf("%d\n", round((sumall + 2)));
 return (0);
 }
