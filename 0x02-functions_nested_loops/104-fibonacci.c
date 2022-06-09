@@ -1,4 +1,4 @@
-##include <stdio.h>
+#include <stdio.h>
 /**
 * main - Short description, single line
 (* a blank line
