@@ -7,7 +7,7 @@
 (* section header: Section description)*
 * Return: Description of the returned value
 */
-void narurals(void)
+void main(void)
 {
 int i,sum = 0;
 for( i= 0;i < 1024;i++)
