@@ -13,7 +13,7 @@ printf("%Lf, %Lf, ", num1, num2);
 for (i = 3; i <= 98; i++)
 {
 num3 = num1 + num2;
-if (i == 50)
+if (i == 98)
 printf("%Lf\n", num3);
 else
 printf("%Lf, ", num3);
