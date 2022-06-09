@@ -14,7 +14,7 @@ for (i = 3; i <= 50; i++)
 {
 num3 = num1 + num2;
 if (i == 50)
-printf("%ld", num3);
+printf("%ld\n", num3);
 else
 printf("%ld, ", num3);
 num1 = num2,
