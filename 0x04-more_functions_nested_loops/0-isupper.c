@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include "main.h"
 #include <ctype.h>
 
 /**
- * _isupper: returnnmm
+ * _isupper - returnnmm
  * @c: add am 
  * Return: 0
  */
