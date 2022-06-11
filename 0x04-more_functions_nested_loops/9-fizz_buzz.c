@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * main-entry
 (*
@@ -27,8 +28,8 @@ putchar('\t');
 }
 else if ((i % 3) == 0)
 {
-putchar('f');
-putchar('i');
+_putchar('f');
+_putchar('i');
 putchar('z');
 putchar('z');
 putchar('\t');
