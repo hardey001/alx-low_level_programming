@@ -47,4 +47,5 @@ putchar(i + '0');
 putchar('\t');
 }  
 }
+return (0);
 }
