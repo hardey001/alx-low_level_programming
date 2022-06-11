@@ -13,7 +13,7 @@ int i;
 
 for (i = 1; i < 100; i++)
 {
-if (i % 15 == 0)
+if(i % 15 == 0)
 {
 putchar('f');
 putchar('i');
@@ -25,7 +25,7 @@ putchar('z');
 putchar('z');
 putchar('\t');
 }
-else if ((i % 3) == 0)
+else if((i % 3) == 0)
 {
 putchar('f');
 putchar('i');
@@ -33,7 +33,7 @@ putchar('z');
 putchar('z');
 putchar('\t');
 }
-else if ((i % 5) == 0)
+else if((i % 5) == 0)
 {
 putchar('b');
 putchar('u');
