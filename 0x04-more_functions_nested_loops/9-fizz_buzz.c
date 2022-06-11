@@ -7,21 +7,44 @@
 *my_function - kklk kkkhj
 */
 int main(void)
+
 {
 int i;
-for (i=1; i < 100; i++)
+
+for (i = 1; i < 100; i++)
 {
 if (i % 15 ==0)
-printf("FizzBuzz\t");
+{
+putchar('f');
+putchar('i');
+putchar('z');
+putchar('z');
+putchar('b');
+putchar('u');
+putchar('z');
+putchar('z');
+putchar('\t');
+}
 else if ((i % 3) == 0)
 {
-printf("Fizz\t");
+putchar('f');
+putchar('i');
+putchar('z');
+putchar('z');
+putchar('\t');
 }
 else if ((i % 5) == 0)
 {
-printf("Buzz\t");
+putchar('b');
+putchar('u');
+putchar('z');
+putchar('z');
+putchar('\t');
 }
 else
-printf("%d\t", i);
+{
+putchar(i + '0');
+putchar('\t');
 }  
+}
 }
