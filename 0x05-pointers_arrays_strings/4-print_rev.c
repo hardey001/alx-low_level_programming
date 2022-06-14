@@ -11,7 +11,7 @@ void print_rev(char *s)
 {
 int n = strlen(s), i, temp;
 
-char a[] = *s;
+char a[10000] = s;
 for (i = 0; i < n/2; i++)
 {
 temp = a[i];
