@@ -17,7 +17,7 @@ for(i = 0; i < (n - 1); i++ )
 {
 end_ptr++;
 }
-for(i = 0; i < (n/2); i++)
+for(i = 0; i < ((n + 1) /2); i++)
 {
 ch = *end_ptr;
 *end_ptr = *begin_ptr;
@@ -25,4 +25,5 @@ ch = *end_ptr;
 begin_ptr++;
 end_ptr--;
 }
+
 }
