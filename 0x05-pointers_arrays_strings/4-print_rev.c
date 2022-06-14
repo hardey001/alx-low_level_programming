@@ -9,21 +9,17 @@
 void print_rev(char *s)
 
 {
-int n = strlen(s), i;
-char *begin_ptr, *end_ptr, ch;
-begin_ptr = s;
-end_ptr = s;
-for(i = 0; i < (n - 1); i++ )
-{
-end_ptr++;
-}
-for(i = 0; i < ((n + 1) /2); i++)
-{
-ch = *end_ptr;
-*end_ptr = *begin_ptr;
-*begin_ptr = ch;
-begin_ptr++;
-end_ptr--;
-}
+int n = strlen(s), i, temp;
 
+char a[] = s;
+for (i = 0; i < n/2; i++)
+{
+temp = a[i];
+a[i] = a[n-i-1];
+a[n-i-1] = temp;
+}
+for (i=0; i<n; i++)
+{
+_putchar(a[i]);
+}
 }
