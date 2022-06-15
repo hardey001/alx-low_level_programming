@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
-*puts2- retuns
+*_strcpy- retuns
 *@dest:char
 *@src: jud
 *Return: char
@@ -14,7 +14,8 @@ char *_strcpy(char *dest, char *src)
 char *str = dest;
 while (*src)
 {
-*dest++ = *src ++;
+*dest++ = *src++;
 }
-return (str);
+
+return (str,'\0');
 }
