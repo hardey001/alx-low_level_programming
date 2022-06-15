@@ -22,6 +22,6 @@ while (*src)
 {
 *dest++ = *src++;
 }
-str[len + 1] = '\0';
+str[len] = '\0';
 return (str);
 }
