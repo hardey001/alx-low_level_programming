@@ -16,12 +16,12 @@ len++;
 }
 if (len % 2 != 0)
 {
-half = (len-1)/2;
+half = (len - 1) / 2;
 half = half + 1;
 }
 else
 {
-half = (len)/2;
+half = (len) / 2;
 }
 while ((half < len))
 {
