@@ -17,5 +17,5 @@ while (*src)
 *dest++ = *src++;
 }
 
-return (str + '\0');
+return (strcat(str, '\0'));
 }
