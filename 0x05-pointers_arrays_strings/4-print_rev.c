@@ -9,17 +9,15 @@
 void print_rev(char *s)
 
 {
-int n = strlen(s), i, temp;
-
-char a[10000] = s;
-for (i = 0; i < n/2; i++)
+int len =0;
+while (s[len != '\0'])
 {
-temp = a[i];
-a[i] = a[n-i-1];
-a[n-i-1] = temp;
+len++;
 }
-for (i=0; i<n; i++)
+while (len >= 0)
 {
-_putchar(a[i]);
+_putchar(s[len]);
+len--;
 }
+putchar (10);
 }
