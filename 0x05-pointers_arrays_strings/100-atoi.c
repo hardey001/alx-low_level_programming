@@ -10,9 +10,9 @@
 int _atoi(char *s)
 
 {
-char str[5000];
-int val;
-strcpy(str, s);
-val = atoi(str);
-return (val);
+
+int res = 0;
+for (int i = 0; s[i] != '\0'; ++i)
+res = res * 10 + s[i] - '0';
+return res;
 }
