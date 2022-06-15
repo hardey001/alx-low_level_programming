@@ -14,11 +14,13 @@ while (s[len] != '\0')
 {
 len++;
 }
+char t[len];
 len = len - 1;
 while ((len + 1) > 0)
 {
-s[len] = s[i];
+t[len] = s[i];
 i++;
 len--;
 }
+*s = *t;
 }
