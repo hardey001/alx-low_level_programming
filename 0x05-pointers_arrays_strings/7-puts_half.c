@@ -19,7 +19,7 @@ if (len % 2 != 0)
 {
 _putchar(s[(len -1 )/2]);
 }
-while ((half <= len))
+while ((half < len))
 {
 _putchar(s[half]);
 half++;
