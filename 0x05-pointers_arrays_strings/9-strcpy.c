@@ -18,10 +18,10 @@ while (str[len] != '\0')
 {
 len++;
 }
-dest[len] = '\0';
 while (*src)
 {
 *dest++ = *src++;
 }
+str[len] = '\0';
 return (str);
 }
