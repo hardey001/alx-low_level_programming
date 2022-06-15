@@ -14,7 +14,14 @@ while (s[len] != '\0')
 {
 len++;
 }
+if (len % 2 != 0)
+{
+half = (len-1)/2;
+}
+else
+{
 half = (len)/2;
+}
 while ((half < len))
 {
 _putchar(s[half]);
