@@ -14,8 +14,10 @@ while (s[len] != '\0')
 {
 len++;
 }
+
 _putchar(len +'0');
-while ((len) > 0)
+len = len - 1;
+while ((len + 1) > 0)
 {
 _putchar(s[len]);
 len--;
