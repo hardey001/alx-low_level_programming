@@ -9,12 +9,12 @@
 void puts_half(char *s)
 
 {
-int len = 0;
+int len = 0, half;
 while (s[len] != '\0')
 {
 len++;
 }
-int half = (len)/2;
+half = (len)/2;
 if (len % 2 != 0)
 {
 _putchar(s[(len -1 )/2]);
