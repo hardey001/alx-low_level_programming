@@ -3,7 +3,7 @@
 #include "main.h"
 /**
 *puts2- retuns
-*@s:char
+*@str:char
 */
 
 void puts2(char *str)
