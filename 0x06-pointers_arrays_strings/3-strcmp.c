@@ -8,6 +8,7 @@
 */
 
 int _strcmp(char *s1, char *s2)
+
 {
 int comp = 0;
 while( ( *s1 != '\0' && *s2 != '\0' ) && *s1 == *s2 )
