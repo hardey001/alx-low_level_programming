@@ -10,34 +10,37 @@ char *leet(char *str)
 
 {
 int i;
-for (i = 0; str[i] != '\0'; i++)
+while (str[i] != '\0')
 {
 if (str[i] == 'a' || str[i] == 'A')
 {
-str[i] = "4";
-continue;
+str[i] = (4 % 10) + '0';
+i++;
 }
-if (str[i] == 'e' || str[i] == 'E')
+else if (str[i] == 'e' || str[i] == 'E')
 {
-str[i] = "3";
-continue;
+str[i] = (3 % 10) + '0';
+i++;
 }
-if (str[i] == 'o' || str[i] == 'O')
+else if (str[i] == 'o' || str[i] == 'O')
 {
-str[i] = "0";
-continue;
+str[i] = (0 % 10) + '0';
+i++;
 }
-if (str[i] == 't' || str[i] == 'T')
+else if (str[i] == 't' || str[i] == 'T')
 {
-str[i] = "t";
-continue;
+str[i] = (7 % 10) + '0';
+i++;
 }
-if (str[i] == 'l' || str[i] == 'L')
+else if (str[i] == 'l' || str[i] == 'L')
 {
-str[i] = "1";
-continue;
+str[i] = (1 % 10) + '0';
+i++;
+}
+else
+{
+i++;
 }
 }
 return (str);
 }
-
