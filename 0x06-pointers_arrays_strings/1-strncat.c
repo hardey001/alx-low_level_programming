@@ -9,8 +9,6 @@
 */
 char *_strncat(char *dest, char *src, int n)
 {
-if((dest == NULL) && (src == NULL))
-return NULL;
 char *dest6 = dest;
 while(*dest != '\0')
 {
