@@ -8,6 +8,7 @@
 *Return: char
 */
 char *_strncat(char *dest, char *src, int n)
+
 {
 char *dest6 = dest;
 while(*dest != '\0')
