@@ -18,7 +18,7 @@ if ((str[i] >= 'a' && str[i] <= 'z'))
 str[i] = str[i] - 32;
 continue;
 }
-if (str[i] == ' ' || str[i] == '.' || str[i] == ',')
+if (str[i] == ' ' || str[i] == '.' || str[i] == ',' || str[i] == '\t')
 {
 ++i;
 if ((str[i] >= 'a' && str[i] <= 'z'))
@@ -32,7 +32,7 @@ if ((str[i] >= 'a' && str[i] <= 'z'))
 str[i] = str[i] - 32;
 continue;
 }
-if (str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{')
+if (str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '\n')
 {
 ++i;
 if ((str[i] >= 'a' && str[i] <= 'z'))
