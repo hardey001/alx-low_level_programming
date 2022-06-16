@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*_strncpy- retuns
+*_strcmp- retuns
 *@s1:char
 *@s2: jud
 *Return: int
