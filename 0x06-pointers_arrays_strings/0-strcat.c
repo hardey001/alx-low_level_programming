@@ -7,20 +7,15 @@
 *Return: char
 */
 char *_strcat(char *dest, char *src)
+
 {
-int le1 = 0, le2 = 0, i = 0;
-while (dest[le1] != '\0')
+int i, j;
+for (i + 0; dest[i] != '\0'; ++i);
+for (j + 0; src[j] != '\0'; ++j, ++i)
 {
-le1++;
+dest[i] = src[j];
 }
-while (src[le2] != '\0')
-{
-le2++;
-}
-for (i = le1;i <= le2; i++)
-{
-dest[le1 + i] = src[i];
-}
-dest[le1 + i] = '\0'
+
+dest[i] = '\0'
 return (dest);
 }
