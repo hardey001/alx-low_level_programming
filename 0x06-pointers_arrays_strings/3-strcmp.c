@@ -21,6 +21,6 @@ break;
 if (s1[i] == s2[i])
 return (0);
 if ((s1[i] | 32) < (s2[i] | 32))
-return (-15);
 return (15);
+return (-15);
 }
