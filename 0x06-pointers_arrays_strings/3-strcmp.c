@@ -2,8 +2,8 @@
 #include "main.h"
 /**
 *_strncpy- retuns
-*@dest:char
-*@src: jud
+*@s1:char
+*@s2: jud
 *Return: int
 */
 
@@ -15,6 +15,6 @@ while( ( *s1 != '\0' && *s2 != '\0' ) && *s1 == *s2 )
 s1++;
 s2++;
 }
-comp = (*s1 ==*s2)?0:(*s1 >*s2)?1:-1;
+comp = (*s1 == *s2) ? 0 : (*s1 > *s2) ?1 : -1;
 return comp;
 }
