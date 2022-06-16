@@ -16,13 +16,4 @@ temp = a[i];
 a[i] = a[n - i - 1];
 a[n - i - 1] = temp;
 }
-for(j = 0; j < n; j++)
-{
-if (j != 0)
-{
-printf(", ");
-}
-printf("%d", a[j]);
-}
-printf("\n");
 }
