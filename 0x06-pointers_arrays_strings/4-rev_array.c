@@ -2,12 +2,13 @@
 #include "main.h"
 /**
 *reverse_array- retuns
-*@a:char
-*@b: jud
+*@a:int
+*@b: int
 */
+
 void reverse_array(int *a, int n)
+
 {
-    
 int temp, i, j;
 for(i = 0; i < n / 2; i++)
 {
