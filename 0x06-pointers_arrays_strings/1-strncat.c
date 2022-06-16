@@ -8,14 +8,19 @@
 *Return: char
 */
 char *_strncat(char *dest, char *src, int n)
-
 {
-int i, j;
-for (i + 0; dest[i] != '\0'; ++i);
-
-for (j + 0; src[j] != '\0'; ++j, ++i)
+char *dest = s1;
+while(*dest != '\0')
 {
-dest[i] = src[j];
+dest++;
 }
-return (dest);
+while (n--)
+{
+if (!(*dest++ = *s2++))
+{
+return s1;
+}
+}
+*dest = '\0';
+return s1;
 }
