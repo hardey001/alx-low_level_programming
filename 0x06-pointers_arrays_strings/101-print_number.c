@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*print_number - retuns
+*print_numbeor - retuns
 *@n:lol
 */
 
