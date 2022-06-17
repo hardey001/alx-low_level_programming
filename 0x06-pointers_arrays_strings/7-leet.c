@@ -12,6 +12,8 @@ char *leet(char *str)
 int i;
 while (str[i] != '\0')
 {
+if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z'))
+{
 if (str[i] == 'a' || str[i] == 'A')
 {
 str[i] = (4 % 10) + '0';
@@ -40,6 +42,7 @@ i++;
 else
 {
 i++;
+}
 }
 }
 return (str);
