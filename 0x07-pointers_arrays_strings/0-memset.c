@@ -2,7 +2,6 @@
 #include "main.h"
 /**
 * _memset - memset
-*
 * @s:knjkn
 * @b:kojkj
 * @n:ioijoi
