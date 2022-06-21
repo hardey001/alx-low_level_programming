@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <string>
+#include <string.h>
 /**
  * _strspn - jhhiueh
  * @s:hhh
