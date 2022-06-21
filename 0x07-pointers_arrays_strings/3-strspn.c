@@ -18,7 +18,7 @@ for (int j = 0; accept[j] != '\0'; j++)
 {
 if (s[i + j] == accept[j])
 {
-count = count + 1;
+count++;
 break;
 }
 }
