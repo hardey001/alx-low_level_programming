@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * _memset - memset
-* 
+*
 * @s:
 * @b:
 * @n:
@@ -17,5 +17,5 @@ for (i = 0; i < n; i++)
 {
 st[i] = b;
 }
-return(*st);
+return (*st);
 }
