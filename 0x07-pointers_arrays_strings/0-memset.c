@@ -3,9 +3,9 @@
 /**
 * _memset - memset
 *
-* @s:
-* @b:
-* @n:
+* @s:knjkn
+* @b:kojkj
+* @n:ioijoi
 * Return: char
 */
 char *_memset(char *s, char b, unsigned int n)
