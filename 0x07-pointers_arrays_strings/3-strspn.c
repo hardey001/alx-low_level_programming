@@ -9,7 +9,8 @@
  */
 
 unsigned int _strspn(char *s, char *accept)
-{{
+
+{
 unsigned int count = 0;
 for (int i = 0; s[i] != '\0'; i++)
 {
@@ -23,5 +24,4 @@ break;
 }
 }
 return (count);
-}
 }
