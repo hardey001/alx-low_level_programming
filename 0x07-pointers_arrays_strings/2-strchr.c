@@ -15,7 +15,7 @@ if (c == s[i])
 {
 return (c); 
 }
-s++;
+i++;
 }
 return ('\0');     
 }
